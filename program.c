@@ -1,24 +1,9 @@
-// I am going to creat a progam show deffernt type of data بسم الله الرحمن الرحيم
+// this is a simple program that excute a sum operation
 
 #include <stdio.h>
-
-// natrual number
-int num=11;
 int main(){
-     printf("%i" ,num);
+int num1=10,num2=10;
+int sum = num1+num2;
 
-
-// dicimal number
-float flnum=99.9999;
-     printf("\n %f",flnum);
-
-
-//charachter
-char ch='T';
-     printf("\n %c" ,ch);
-
-
-
-
-return 0;
+printf("%i" ,sum);
 };
