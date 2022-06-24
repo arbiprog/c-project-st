@@ -1,7 +1,24 @@
-// this is the c program 
-/* this is a simple program that show a simple message 
-"مرحبا أنت في تقدم" */
+// I am going to creat a progam show deffernt type of data بسم الله الرحمن الرحيم
+
 #include <stdio.h>
-int main (){
-    printf("مرحبا \n أنت في تقدم");
+
+// natrual number
+int num=11;
+int main(){
+     printf("%i" ,num);
+
+
+// dicimal number
+float flnum=99.9999;
+     printf("\n %f",flnum);
+
+
+//charachter
+char ch='T';
+     printf("\n %c" ,ch);
+
+
+
+
+return 0;
 };
