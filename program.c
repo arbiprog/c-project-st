@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main(){
-    int x;
-    x=1;
-    printf("%i" ,x);
+    char str[] ="أنا متعلم مجتهد";
+    printf("%s",str);
     return 0;
 };
