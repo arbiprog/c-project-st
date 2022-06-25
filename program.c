@@ -1,25 +1,18 @@
-// comparison operations with c
+// logical operations with c
 
 #include <stdio.h>
 int main(){
-// عملية المقارنة
-// int stn=2;
-// int ndn=20;
-// int result = ndn<stn;
-// printf("%i",result);
 
+// العطف
+// int x=2;
+// int y=1;
+// printf("%i",y>0 && x>0);
 
-التساوي
-int stn=2;
-int ndn=2;
-int result = ndn==stn;
-printf("%i",result);
+// الفصل
+// int x=0;
+// int y=1;
+// printf("%i",y>0 || x>0);
 
-// التخالف
-// int stn=2;
-// int ndn=2;
-// int result = ndn!=stn;
-// printf("%i",result);
 
 
     return 0;
