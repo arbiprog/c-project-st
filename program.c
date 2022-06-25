@@ -1,40 +1,25 @@
-// operations with c
+// comparison operations with c
 
 #include <stdio.h>
 int main(){
-//  عملية result عددين
-// int stn=1;
-// int ndn=2;
-// int result=stn+ndn;
-// printf("%i",result);
-    
-
-// طرح عددين
-// int stn=3;
-// int ndn=2;
-// int result=stn-ndn;
-// printf("%i",result);
-    
-// قسمة عددين
-//     int stn=6;
-// int ndn=2;
-// int result=stn/ndn;
-// printf("%i",result);
-    
-
-// // ناقص واحد
+// عملية المقارنة
 // int stn=2;
 // int ndn=20;
-// int result=--ndn;
+// int result = ndn<stn;
 // printf("%i",result);
-    
 
-زائد واحد
+
+التساوي
 int stn=2;
-int result=++stn;
+int ndn=2;
+int result = ndn==stn;
 printf("%i",result);
 
-
+// التخالف
+// int stn=2;
+// int ndn=2;
+// int result = ndn!=stn;
+// printf("%i",result);
 
 
     return 0;
