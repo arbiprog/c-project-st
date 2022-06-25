@@ -2,11 +2,8 @@
 #include <stdio.h>
 int main(){
 
-
-int i;
-for(i=0;i<50;i++){
-    printf("%i ",i);
-};
+char str[]="بيض صنائعنا سود وقائعنا خضر مرابعنا حمر مواضينا";
+printf("%s",str);
 
 return 0;
 };
