@@ -1,13 +1,12 @@
-// switch statments
+
 #include <stdio.h>
 int main(){
 
 
-char i=-2;
-do{
-    printf("hi %i \n",i);
-    i++;
-}
-while(i<5);
+int i;
+for(i=0;i<50;i++){
+    printf("%i ",i);
+};
+
 return 0;
 };
