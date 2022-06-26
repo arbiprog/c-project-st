@@ -5,17 +5,13 @@ int main() {
 
 
  
- printf("what is your name Mr ? \n");
- char name[5];
-    scanf("%s", &name);
- printf("%s you are the pilot now \n", name);
  
+// int speed=90;
+// printf("%p", &speed);
 
- printf("how fast you want drive ? \n");
-int speed;
-scanf("%i",&speed);
-printf("your speed is : %i km/h",speed);
- 
- 
+
+int c=8;
+int* ptr = &c;
+printf("%p", ptr);
   return 0;
 };
