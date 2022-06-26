@@ -6,12 +6,20 @@ int main() {
 
  
  
-// int speed=90;
-// printf("%p", &speed);
+ void fun(){
+  printf("true password");
+ };
+
+printf("password : \n");
+int key;
+scanf("%i", &key);
+
+if(key == 1234){
+  fun();
+}else{
+  printf("wrong password");
+};
 
 
-int c=8;
-int* ptr = &c;
-printf("%p", ptr);
   return 0;
 };
