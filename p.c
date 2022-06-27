@@ -1,18 +1,28 @@
 #include <stdio.h>
-int main(){
-  void fun (char name[] , int age){printf("مرحبا %s أنت في %i ربيعا \n", name, age) ;};
-  
-  char names[][20]= {"طه","علي","طلحة","مالك"};
-  char ages[]={16,20,40,50};
 
-  for (int i = 0; i < 4; i++)
-  {
-    /* code */
-  fun(names[i],ages[i]);
-  }
-  
-  
-  
-  
-  
+int fun(int x, int y){
+  return y+x;
 };
+
+
+
+int main(){
+int stn;
+int ndn;
+printf("first number (x) ="); scanf("%i", &stn);
+printf("second number (y) ="); scanf("%i", &ndn);
+
+
+  printf("the result of x + y = %i",fun(stn,ndn));
+};
+
+
+// int myFunction(int x) {
+//   return 5 + x;
+// }
+
+// int main() {
+//   printf("Result is: %d", myFunction(3));
+
+//   return 0;
+// }
