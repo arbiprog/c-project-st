@@ -6,14 +6,14 @@ int fun(int x, int y){
 
 
 
-int main(){
-int stn;
-int ndn;
-printf("first number (x) ="); scanf("%i", &stn);
-printf("second number (y) ="); scanf("%i", &ndn);
+// int main(){
+// int stn;
+// int ndn;
+// printf("first number (x) ="); scanf("%i", &stn);
+// printf("second number (y) ="); scanf("%i", &ndn);
 
 
-  printf("the result of x + y = %i",fun(stn,ndn));
+//   printf("the result of x + y = %i",fun(stn,ndn));
 };
 
 
