@@ -13,8 +13,8 @@ struct book {
 
 
 int main(){
-  struct book b1; b1.isbn=809; strcpy(b1.writer, "ibn khadoon");
 
+struct book b1={5797 ,"ibn tofail"};
 
   printf("%i \t %s" ,b1.isbn, b1.writer);
 
