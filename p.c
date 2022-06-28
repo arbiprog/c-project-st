@@ -1,24 +1,25 @@
 #include<stdio.h>
-// وضع الهيكلة العامة للبنية
-struct book{
+
+
+
+
+struct book {
   int isbn;
-  char sect;
+  char writer[30];
 };
 
 
 
-int main (){
-
-//إدخال المعطيات 
-struct book b1;
-b1.isbn=12367;
-b1.sect='A';
 
 
-//عرض البيانات
-printf("%i \t %c", b1.isbn , b1.sect);
+int main(){
+  struct book b1; b1.isbn=809; strcpy(b1.writer, "ibn khadoon");
 
-  return 0;
+
+  printf("%i \t %s" ,b1.isbn, b1.writer);
+
+
+
+
+  return 0;  
 };
-
-
