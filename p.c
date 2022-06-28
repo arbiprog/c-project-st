@@ -1,28 +1,26 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int fun(int x, int y){
-  return y+x;
+
+struct book{
+  int isbn;
+  char writer;
+
 };
 
 
 
-// int main(){
-// int stn;
-// int ndn;
-// printf("first number (x) ="); scanf("%i", &stn);
-// printf("second number (y) ="); scanf("%i", &ndn);
+int main() {
 
 
-//   printf("the result of x + y = %i",fun(stn,ndn));
+struct book b1;
+b1.isbn=1234;
+b1.writer='l';
+
+
+printf("%i \t %c", b1.isbn ,b1.writer);
+
+
+  return 0;
 };
 
 
-// int myFunction(int x) {
-//   return 5 + x;
-// }
-
-// int main() {
-//   printf("Result is: %d", myFunction(3));
-
-//   return 0;
-// }
