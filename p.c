@@ -1,21 +1,13 @@
 #include <stdio.h>
 int main() {
   
+char ml[20];
+FILE * mhd = fopen("index.txt","r");
 
-char str[30];
+fgets(ml ,20 , mhd);
 
-printf("your name :");
-scanf("%s", &str);
- 
- 
-FILE* mhd = fopen("names.txt","a");
- fprintf(mhd , "%s \n", str);
 fclose(mhd);
 
-
-
-
-
-  
+printf("%s",ml);
   return 0;
 }; 
